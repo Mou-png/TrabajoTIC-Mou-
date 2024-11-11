@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derivado de "Proyecto: página web de viajes"</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+     color: white;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Shanghai_skyline_unsplash.jpg/1920px-Shanghai_skyline_unsplash.jpg");
+
+}
+
+h1 {
+    margin: 0;
+}
+
+
+#galeria {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+ #img1 {
+    width: 100%;
+    border-radius: 10px;
+}
+ #img2 {
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+#origen{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+#actividades {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shanghái</h1>
+        <p>Ciudad de belleza urbana</p>
+    </header>
+      <section id="origen">
+      <h2>¿Porqué ir a Shanghái?</h2>
+      <p><strong>Shanghai</strong> es un destino que cautiva por su singular combinación de tradición y modernidad. Al recorrer sus calles, podrás explorar templos antiguos como el Templo del Buda de Jade y perderte en la belleza del Jardín Yuyuan, un oasis de calma en medio de la bulliciosa ciudad.<br>
+
+La gastronomía de Shanghai es otro de sus grandes atractivos. No puedes dejar de probar el famoso <i>xiaolongbao</i>, unos <i>dumplings</i> de sopa que son un auténtico manjar. Los mercados y restaurantes locales ofrecen una amplia variedad de platos que deleitarán tu paladar.<br>
+
+La vida nocturna en Shanghai es vibrante y diversa. En el <i>Bund</i>, disfrutarás de vistas espectaculares del horizonte mientras te sumerges en una atmósfera llena de energía, con opciones que van desde bares elegantes hasta discotecas animadas.<br>
+
+Para los amantes de las compras, la ciudad no decepciona. Desde mercados callejeros donde puedes regatear hasta lujosos centros comerciales, hay algo para cada gusto y presupuesto.<br>
+</p>
+<img id="img1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Bridge_at_Nanxi_Street_over_Puhuitang_River%2C_Qibao.jpg/1280px-Bridge_at_Nanxi_Street_over_Puhuitang_River%2C_Qibao.jpg">
+<p> Imagen del mercado</p>
+
+
+     </section>
+    
+    <section id="actividades">
+    
+        <h2>Actividades Imperdibles</h2>
+        <ul>
+            <li><strong>Pudong y el Bund:</strong> Pasea alrededor del río Huangpu para difrutar las vistas</li>
+            <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/People_Square_Shanghai_Night_View_2010.jpg/1920px-People_Square_Shanghai_Night_View_2010.jpg">
+            <li><strong>Jardín Yuyuan:</strong>Este hermoso jardín clásico chino es un oasis de tranquilidad en medio de la bulliciosa ciudad.</li>
+            <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg/1280px-2024-Apr_Shanghai_Yu_Yuan_Garden_%E8%B1%AB%E5%9B%AD_-_img_20.jpg">
+            <li><strong>Templo del Buda de Jade:</strong> Visita este templo budista famoso por sus estatuas de Buda de jade.</li>
+            <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Mahayanabuddha.jpg/280px-Mahayanabuddha.jpg">
+            <li><strong>Torre de Shanghái:</strong>Sube al mirador de la Torre de Shanghái, que es uno de los edificios más altos del mundo.</li>
+            <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Shanghai_Tower_in_2015_%282%29.jpg">
+        </ul>
+        
+    <h2>Objetos que no te puedes olvidadar llevar </h2>
+    <ul>
+    <strong></strong>
+        <li>Pasaporte y documentos de identificación</li>
+        <li>Tarjeta de crédito y efectivo en yuanes</li>
+        <li>Adaptador de enchufe (tipo A, C o I)</li>
+        <li>Cargador portátil para el móvil</li>
+        <li>Ropa adecuada para el clima (revisa la previsión)</li>
+        <li>Zapatos cómodos para caminar</li>
+        <li>Protector solar y gafas de sol</li>
+        <li>Botella de agua reutilizable</li>
+        <li>Medicamentos y botiquín básico</li>
+        <li>Guía de viaje o aplicación móvil con información de la ciudad</li>
+        <li>Fraseario o aplicación de traducción (si no hablas chino)</li>
+        <li>Teléfono móvil y cargador</li>
+        <li>Power bank para dispositivos electrónicos</li>
+        <li>Kit de higiene personal (cepillo de dientes, pasta, etc.)</li>
+        <li>Paraguas o impermeable (dependiendo de la temporada)</li>
+    </ul>
+    <p> Disftuta de tu viaje en Shanghai!!!</p>
+    </section>
+    
+    <footer>
+    
+    </footer>
+</body>
+</html>
